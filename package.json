@@ -1,0 +1,27 @@
+{
+  "name": "web-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Scrape a website and generate an Excel report",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules index.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "web",
+    "page",
+    "parser"
+  ],
+  "author": "Dhanush Mathivanan",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dom-parser": "^0.1.6",
+    "exceljs": "^4.3.0",
+    "htmlparser2": "^8.0.2",
+    "website-scraper": "^5.3.1",
+    "website-scraper-puppeteer": "^1.0.0"
+  }
+}
